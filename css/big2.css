@@ -1,0 +1,11 @@
+
+    div.hero {
+        display: flex;
+        justify-content: space-between;
+        background: url(/background-hero.svg) center center/cover;
+        position: absolute;
+        top: -100px;
+        height: 98vh;
+        width: 100%;
+        z-index: -1;
+    }

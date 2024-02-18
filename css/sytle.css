@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 80px;
+    height: 60px;
+}
+
+.heading>img {
+    padding: 20px;
+    position: absolute;
+    left: 27px;
+    width: 113px;
+    top: 11px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-bottom: 5px solid #44ffa1;
+    height: 30px;
+    position: absolute;
+    right: 60px;
+    top: 27px;
+}
+
+
+
+div.hero {
+    display: flex;
+    justify-content: space-between;
+    background: url(/background-hero.svg) center center/cover;
+    position: absolute;
+    top: -276px;
+    height: 150vh;
+    width: 100%;
+    z-index: -1;
+}
+
+@media (min-width:1025px)and(max-width:1599px){
+    .hero{
+        top:-276px;
+        height: 100vh;
+    }
+}
+
+div.images {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+}
+
+div.svg1 {
+    background: center center/cover;
+    height: 250px;
+    width: 223px;
+    position: relative;
+    left: -60px;
+}
+
+div.svg1>img {
+    position: absolute;
+    right: -44px;
+}
+
+div.h1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 680px;
+    font-size: 38px;
+}
+
+div.svg2 {
+    background: url(/bg-pattern-2.svg) center center/cover;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 164px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 18px;
+    font-weight: bolder;
+}
+
+.btn>button {
+    padding: 12px;
+    width: 135px;
+    background-color: #44ffa1;
+}
+
+div.mob {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+}
+
+.topi>img {
+
+    height: 400px;
+    width: 100%;
+
+}
+
+.text {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 100px;
+}
+
+.typer {
+    display: flex;
+    width: 87%;
+}
+
+.num {
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    height: 47px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.one {
+    color: #24053e;
+    border: 2px solid black;
+    width: 63px;
+    height: 63px;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.h2 {
+    font-family: "Style Script", cursive;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 37px;
+    text-align: center;
+    margin-bottom: 17px;
+    color: #24053e;
+}
+
+.para {
+    font-size: 15px;
+    width: 99%;
+    text-align: center;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 306;
+    font-style: normal;
+}
+
+.last {
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    width: 87vw;
+}
+
+.lastc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 552px;
+    margin-left: auto;
+}
+
+
+.img {
+    height: 100%;
+}
+
+.img>img {
+    height: 400px;
+}
+
+.container {
+    position: relative;
+    top: 95px;
+    right: 95px;
+
+    height: 300px;
+    width: 600px;
+    background-color: #24053e;
+    padding: 40px;
+}
+
+.h {
+    font-family: "Style Script", cursive;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 45px;
+    color: #fcf8ff;
+}
+
+.p {
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 306;
+    font-style: normal;
+    line-height: 2;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.imgs {
+    background: center center/cover;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: -53px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.imgs>img {
+    height: 150px;
+    width: 173px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 300px;
+}
+
+.logos {
+    margin-top: 11px;
+    display: flex;
+    width: 10%;
+    justify-content: space-evenly;
+}
+
+div.img2 {
+    display: flex;
+    justify-content: end;
+}
